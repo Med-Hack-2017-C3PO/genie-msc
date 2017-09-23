@@ -37,8 +37,6 @@ def get_urls(url):
 		t = []
 		counter = 1
 		for i in parse_url(link):
-#			print i
-			print counter
 			t.append(i)
 			counter = counter + 1#		
 		print Formater(t[0],t[1],t[2])
