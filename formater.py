@@ -1,36 +1,45 @@
-# cuylar
+ # cuylar
 # for formating scraped pubmed abstracts and titles.
 
 punctuation = [". ", "! ", "? "]
 
-class Formater(self, title, abstract, pmid):
-
-    def __init_(self):
-        self.title = title
-        self.abstract = abstract
-        self.pmid = pmid
+def Formater(title, abstract, pmid):
 
         # title
-        self.fmt-title = "abstract=b'<d> <p> <s> {} </s> </p> </d>'".format(self.title)
+	#print fmtTitle
+	
+
+	title = title.encode('utf-8')
+	abstract = abstract.encode('utf-8')
+	pmid = pmid.encode('utf-8')
+
+	fmtTitle = ""
+        fmtTitle = "abstract=b'<d> <p> <s> %s </s> </p> </d>'" % title
 
         # add sentance flags, and remouve null sentance artifacts
         # replace ". " to avoid ruining decimal points
-
         # loop the abstract for each of [". ", "! ", "? "]
+	print "!!!!!!\r\nAbstract:%s\r\n!!!!!!!\r\n" % abstract
+
         for i in punctuation:
-            self.fmt-period = self.abstract.replace("{}", "{}</s> <s>").format(i, i)
+		print "Replacing %s" % i
+		t = "%s</s> <s>" % i
+		fmtAbstract = abstract.replace(". ", t)
 
         #self.fmt-period = self.abstract.replace(". ", ". </s> <s>")
-        self.fmt-period = fmt-period.replace("</s> <s>", "</s>")
+        #self.fmt-period = fmt-period.replace("</s> <s>", "</s>")
 
         # abstract
-        self.fmt-abstract = 'article=b"<d> <p> <s> {} </s> </p> </d>"'.format(fmt-period)
+        fmtAbstract = 'article=b"<d> <p> <s> %s </s> </p> </d>"' % abstract
 
         # pmid
-        self.fmt-pmid = "publisher=b'{}'".format(self.pmid)
+        fmtPmid = "publisher=b%s" % pmid
 
         #self.entry = "{} {} {}".format(self.fmt-title, self.fmt-abstract,
         #                               self.fmt-pmid)
 
         # return self.entry
-        return fmt-title, fmt-abstract, fmt-pmid
+	returnval = fmtTitle
+	returnval = returnval + fmtAbstract
+	returnval = returnval + fmtPmid
+        return returnval
