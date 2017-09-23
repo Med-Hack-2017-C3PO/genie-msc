@@ -1,0 +1,129 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">28925729</PMID>
+        <DateCreated>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>09</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1756-8927</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2017</Year>
+                        <Month>Sep</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Future medicinal chemistry</Title>
+                <ISOAbbreviation>Future Med Chem</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Advances toward multifunctional cholinesterase and β-amyloid aggregation inhibitors.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.4155/fmc-2017-0094</ELocationID>
+            <Abstract>
+                <AbstractText>The emergence of a multitarget design approach in the development of new potential anti-Alzheimer's disease agents has resulted in the discovery of many multifunctional compounds focusing on various targets. Among them the largest group comprises inhibitors of both cholinesterases, with additional anti-β-amyloid aggregation activity. This review describes recent advances in this research area and presents the most interesting compounds reported over a 2-year span (2015-2016). The majority of hybrids possess heterodimeric structures obtained by linking structurally active fragments interacting with different targets. Multipotent cholinesterase inhibitors with β-amyloid antiaggregating activity may additionally possess antioxidative, neuroprotective or metal-chelating properties or less common features such as anti-β-secretase or τ-antiaggregation activity.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Panek</LastName>
+                    <ForeName>Dawid</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physicochemical Drug Analysis, Chair of Pharmaceutical Chemistry, Faculty of Pharmacy, Jagiellonian University Medical College, 30-688 Kraków, Medyczna 9, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wichur</LastName>
+                    <ForeName>Tomasz</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physicochemical Drug Analysis, Chair of Pharmaceutical Chemistry, Faculty of Pharmacy, Jagiellonian University Medical College, 30-688 Kraków, Medyczna 9, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Godyń</LastName>
+                    <ForeName>Justyna</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physicochemical Drug Analysis, Chair of Pharmaceutical Chemistry, Faculty of Pharmacy, Jagiellonian University Medical College, 30-688 Kraków, Medyczna 9, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pasieka</LastName>
+                    <ForeName>Anna</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physicochemical Drug Analysis, Chair of Pharmaceutical Chemistry, Faculty of Pharmacy, Jagiellonian University Medical College, 30-688 Kraków, Medyczna 9, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Malawska</LastName>
+                    <ForeName>Barbara</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physicochemical Drug Analysis, Chair of Pharmaceutical Chemistry, Faculty of Pharmacy, Jagiellonian University Medical College, 30-688 Kraków, Medyczna 9, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2017</Year>
+                <Month>09</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Future Med Chem</MedlineTA>
+            <NlmUniqueID>101511162</NlmUniqueID>
+            <ISSNLinking>1756-8919</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">alkaloids analogs</Keyword>
+            <Keyword MajorTopicYN="N">antioxidant activity</Keyword>
+            <Keyword MajorTopicYN="N">donepezil-related compounds</Keyword>
+            <Keyword MajorTopicYN="N">multitarget-directed ligands</Keyword>
+            <Keyword MajorTopicYN="N">rivastigmine derivatives</Keyword>
+            <Keyword MajorTopicYN="N">tacrine hybrids</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2017</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">28925729</ArticleId>
+            <ArticleId IdType="doi">10.4155/fmc-2017-0094</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
